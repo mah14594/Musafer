@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all 0.5s ease;
+}
+
+  :root{
+      --bg:#ebeff1;
+      --c1:#FDDB27FF;
+      --c2:#1F94D4;
+
+    }
+  body {
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #0e0d0d;
+    text-align: left;
+    background-color: var(--bg);
+}
+  
+  /* top nav style */
+  .topnav{
+      position: relative;
+  }
+  .topnav .fab , .topnav .fa{
+    position: relative;
+    font-size: 1.2rem;
+    color: var(--c2);
+
+  }
+  .topnav .fab:hover{
+    transform: rotateY(180deg);
+  }
+  /* bottom nav style*/ 
+
+  .navbar-brand span{
+    color: var(--c2);
+    }
+.nav-link span{
+    transition: all 0.5s ease;
+    color:var(--primary);
+}
+
+  .nav-link span:hover,.active{
+    color: var(--primary);
+    font-weight: 900;
+  }
+  .dropdown-item:hover{
+      background-color: var(--c2);
+  }
+/*header style*/
+  header{
+      position: relative;
+    }
+
+.header-video{
+    position: relative;
+}
+.carousel-caption{
+    position: absolute;
+    top:20%;
+}
+@media screen and (max-width:501px) {
+
+    .carousel-caption{
+    position: absolute;
+    top:10%;
+}
+.carousel-caption h4{
+    font-size: 13px;
+}
+.carousel-caption h1{
+    font-size: 20px;
+}
+.carousel-caption a{
+    padding: 8px;
+}
+}
+/*booking style*/
+.booking{
+    position: relative;
+}
+.booking h2{
+    color:var(--c2);
+    font-weight: 900;
+}
